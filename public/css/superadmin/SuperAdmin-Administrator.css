@@ -1,0 +1,178 @@
+/* body{
+    font-family: Arial,sans-serif;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: white;
+    color: #009e00;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 5px solid white;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.EtapaSeguimiento {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.etapa-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.etapa-text h2{
+    font-size: 14px;
+    margin: 0;
+    color: #009e00;
+}
+
+.SUPER-ADMINISTRADOR{
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.SUPER-ADMINISTRADOR h1 {
+    font-size: 18px;
+    margin: 0;
+    color: #009e00;
+}
+
+.logosena{
+    width: 45px;
+    height: 45px;
+}
+
+.user-nav {
+    background-color: #00324d; /* Color de fondo de la barra de navegación del usuario
+    padding: 5px 10px; /* Espaciado interno de la barra de navegación
+    display: flex; /* Define un contenedor flex
+    justify-content: flex-start; /* Alinea los elementos a la izquierda
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente
+}
+
+.notificacion {
+    width: 35px; Ancho del icono de notificación
+    height: auto; /* Altura automática manteniendo la proporción
+    margin-right: 10px; Espaciado a la derecha del icono de notificación
+    filter: invert(1); Invierte los colores del icono
+}
+
+.Administrador{
+    color: white;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.user {
+    background-color: #ffffff; /* Color de fondo del contenedor de usuario 
+    border-radius: 30px; /* Bordes redondeados del contenedor
+    padding: 5px 15px; /* Espaciado interno del contenedor
+    font-size: 14px; /* Tamaño de fuente del texto del usuario
+    color: #000000; /* Color del texto del usuario
+    margin-left: auto; /* Empuja el contenedor a la derecha
+    margin-right: 0; /* Elimina el margen a la derecha
+}
+
+.user-icon {
+    background-color: #ffffff; /* Color de fondo del icono de usuario
+    width: 35px; /* Ancho del icono de usuario
+    height: auto; /* Altura automática manteniendo la proporción
+    border-radius: 100%; /* Bordes completamente redondeados (círculo)
+    margin-left: -10px; /* Espaciado a la izquierda del icono de usuario
+    border: 2px solid #000000; /* Borde negro de 2px alrededor del icono
+}
+
+.main {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente
+}
+
+
+.flecha img {
+    margin: 5px 15px;
+    width: 20px;
+    height: auto;
+}
+
+
+.nav-inferior {
+    display: flex;
+    align-items: center;
+}
+
+.barra-busqueda {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente
+    margin-left: auto; /* Centra el formulario
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+.barra-busqueda input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    margin-right: 5px; /* Espaciado entre el campo de búsqueda y el botón
+    width: 500px;
+    height: 26px;
+}
+
+
+.barra-busqueda button {
+    padding: 8px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+.barra-busqueda button img {
+    width: 15px; /* Tamaño del ícono de búsqueda
+    height: auto;
+}
+
+
+.icono-agregar {
+    margin-left: 1180px;
+}
+
+
+.icono-agregar button {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.icono-agregar button img {
+    width: 20px;
+    height: auto;
+}

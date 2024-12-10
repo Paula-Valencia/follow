@@ -1,0 +1,144 @@
+/* body {
+    font-family: Arial, sans-serif; /* Establece la fuente principal de la página
+    background-color: #ffffff; /* Define el color de fondo del cuerpo de la página
+    margin: 0; /* Elimina el margen por defecto alrededor del cuerpo
+    display: flex; /* Define un contenedor flex
+    flex-direction: column; /* Organiza los elementos hijos en una columna
+    min-height: 100vh; /* Establece la altura mínima de la página para que ocupe al menos el 100% de la altura de la ventana del navegador
+}
+
+header {
+    background-color: #ffffff; /* Color de fondo del encabezado
+    color: #009e00; /* Color del texto en el encabezado
+    padding: 10px 20px; /* Espaciado interno del encabezado
+    display: flex; /* Define un contenedor flex
+    justify-content: space-between; /* Espacia los elementos hijos uniformemente
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente
+    border-top: 5px solid #ffffff; /* Borde superior del encabezado
+    border-bottom: 1px solid #e0e0e0; /* Borde inferior del encabezado
+}
+
+.EtapaSeguimiento {
+    display: flex; /* Define un contenedor flex
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente
+}
+
+.logo {
+    width: 40px; /* Ancho de la imagen del logo
+    height: auto; /* Altura automática manteniendo la proporción
+    margin-right: 5px; /* Espaciado a la derecha del logo
+}
+
+.etapa-text {
+    display: flex; /* Define un contenedor flex
+    flex-direction: column; /* Organiza los elementos hijos en una columna
+}
+
+.etapa-text h2 {
+    font-size: 14px; /* Tamaño de fuente del título h2
+    margin: 0; /* Elimina el margen por defecto
+    color: #009e00; /* Color del texto del título h2
+}
+
+.SUPER-ADMINISTRADOR {
+    font-size: 8px; /* Tamaño de fuente del contenedor
+    display: flex; /* Define un contenedor flex
+    flex-direction: column; /* Organiza los elementos hijos en una columna
+    align-items: center; /* Alinea los elementos hijos en el centro horizontalmente
+    justify-content: center; /* Centra los elementos hijos verticalmente
+    position: absolute; /* Posiciona el contenedor de forma absoluta
+    left: 50%; /* Ubica el contenedor en el 50% de la izquierda del contenedor padre
+    transform: translateX(-50%); /* Ajusta la posición para centrarlo horizontalmente
+}
+
+.SUPER-ADMINISTRADOR h1 {
+    font-size: 18px; /* Tamaño de fuente del título h1
+    margin: 0; /* Elimina el margen por defecto
+    color: #009e00; /* Color del texto del título h1
+}
+
+.logoSena {
+    width: 45px; /* Ancho de la imagen del logo Sena
+    height: 45px; /* Altura de la imagen del logo Sena
+}
+
+.user-nav {
+    background-color: #00324d; /* Color de fondo de la barra de navegación del usuario
+    padding: 5px 10px; /* Espaciado interno de la barra de navegación
+    display: flex; /* Define un contenedor flex
+    justify-content: flex-start; /* Alinea los elementos a la izquierda
+    align-items: center; /* Alinea los elementos hijos en el centro verticalmente
+}
+
+.notificacion {
+    width: 35px; /* Ancho del icono de notificación
+    height: auto; /* Altura automática manteniendo la proporción
+    margin-right: 10px; /* Espaciado a la derecha del icono de notificación
+    filter: invert(1); /* Invierte los colores del icono
+}
+
+.user
+    background-color: #ffffff; /* Color de fondo del contenedor de usuario
+    border-radius: 30px; /* Bordes redondeados del contenedor
+    padding: 5px 15px; /* Espaciado interno del contenedor
+    font-size: 14px; /* Tamaño de fuente del texto del usuario
+    color: #000000; /* Color del texto del usuario
+    margin-left: auto; /* Empuja el contenedor a la derecha
+    margin-right: 0; /* Elimina el margen a la derecha
+}
+
+.user-icon {
+    background-color: #ffffff; /* Color de fondo del icono de usuario
+    width: 35px; /* Ancho del icono de usuario
+    height: auto; /* Altura automática manteniendo la proporción
+    border-radius: 100%; /* Bordes completamente redondeados (círculo)
+    margin-left: -10px; /* Espaciado a la izquierda del icono de usuario
+    border: 2px solid #000000; /* Borde negro de 2px alrededor del icono
+}
+
+main {
+    flex-grow: 1; /* Permite que el contenedor principal crezca para ocupar el espacio disponible
+    padding: 30px; /* Espaciado interno del contenedor principal
+    display: flex; /* Define un contenedor flex
+    justify-content: center; /* Centra los elementos hijos horizontalmente
+    align-items: center; /* Centra los elementos hijos verticalmente
+    background-color: #f0f0f0; /* Color de fondo del contenedor principal
+}
+
+.menu-grid {
+    display: grid; /* Define un contenedor de cuadrícula
+    grid-template-columns: repeat(3, 1fr); /* Establece tres columnas iguales
+    gap: 20px; /* Espaciado entre elementos de la cuadrícula
+    background-color: white; /* Color de fondo de la cuadrícula
+    padding: 30px; /* Espaciado interno de la cuadrícula
+    border-radius: 10px; /* Bordes redondeados de la cuadrícula
+    max-width: 900px; /* Ancho máximo de la cuadrícula
+    margin: 0 auto; /* Centra la cuadrícula horizontalmente
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra alrededor de la cuadrícula
+}
+
+.menu-item {
+    margin: 10px; /* Espaciado alrededor de cada elemento del menú
+    border-radius: 15%; /* Bordes redondeados del 15% del elemento
+    display: flex; /* Define un contenedor flex
+    flex-direction: column; /* Organiza los elementos hijos en una columna
+    align-items: center; /* Alinea los elementos hijos en el centro horizontalmente
+    text-align: center; /* Centra el texto dentro del elemento
+    padding: 20px; /* Espaciado interno del elemento
+    border: 3px solid #000000; /* Borde negro de 3px alrededor del elemento
+}
+
+.menu-item img {
+    width: 50px; /* Ancho de la imagen dentro del elemento del menú
+    height: 50px; /* Altura de la imagen
+    margin-bottom: 10px; /* Espaciado debajo de la imagen
+}
+
+.menu-item span {
+    font-size: 14px; /* Tamaño de fuente del texto dentro del elemento del menú
+}
+
+a {
+    text-decoration: none; /* Elimina la decoración de texto (subrayado) de los enlaces
+    color: #000000; /* Define el color del texto de los enlaces
+} */
